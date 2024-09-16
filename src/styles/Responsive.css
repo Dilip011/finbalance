@@ -1,0 +1,17 @@
+#LOGIN_MESSAGE{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+visibility:visible}
+
+
+#text_style{
+font-size: 24px;
+font-weight : bold;
+color: #333;
+padding: 20px;
+border: 2px solid #333;
+background-color: #fff;
+border-radius : 10px;
+}

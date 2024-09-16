@@ -1,0 +1,96 @@
+/* .registration_box{position: absolute;top: 64px;height: 687px;left: 539px;width: 984px;border-radius: 45px;border: white;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+.input_box{display: flex;flex-direction: column;margin: 24px 1px 39px 20px;}
+
+.input_box input{padding: 8px 2px 3px 6px;border: 1px solid white;background-color: white;width: 326px;margin: 13px 2px 2px 3px;outline: none;font-size: 16px;}
+
+.register_box_img{height: 577px;width: 510px;float: right;margin: 1px 1px 1px 1px;position: absolute;top: 32px;
+left: 468px;}
+
+.register_button{padding:16px 33px 17px 35px; margin:7px 5px 5px 55px; border-radius:16px; font-size:19px; border:1px solid white; background:#009879; color:white; font-weight: 400;}
+
+.register_button:hover{background-color: rgb(23 210 172);}
+
+.register_border_bottom{border-bottom: 1px solid rgb(102, 102, 102);margin: 2px 1px 1px 35px;width: 384px;}
+
+.register_top_topic{font-size: 39px;margin: 26px 1px 1px 35px;}
+
+#i_tags{margin: 1px 1px 1px 34px;} */
+/* .signup{position: absolute;top: 40px;left: 500px;width: 1000px;margin: 13px auto; border-radius: 18px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+.signup h2{font-family: 'Poppins', sans-serif; font-weight: 1000; padding: 42px 50px; display: inline-block;}
+.form-group{margin: 8px 80px; padding-bottom: 9px;}
+.form-group input{margin: 0 6px; border: white; font-size: 16px; outline: none;}
+.border-bottom {width: 371px; border: 1px solid black}
+.form-submit{ background-color: #45e7f9; margin: 14px 1px 1px 89px; border: none; font-size: 20px; padding: 17px 35px 18px 30px;border-radius: 15px; color: white; font-weight: 600;}
+.form-submit:hover{background-color: skyblue;}
+.signup img {height: 433px; width: 411px; margin: -700px 0px 0px 500px;} */
+
+
+.registration_box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.input_box {
+  width: 600px;
+  padding: 20px;
+  background-color: white;
+  margin: 70px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register_top_topic {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-box input {
+  padding: 11px 1px 4px 1px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-box i.fa-solid {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  color: #666;
+}
+
+.wrapper-input {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.register_button {
+  padding: 10px 20px;
+  background-color: #009879;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register_button:hover {
+  background-color: #06b38b;
+}

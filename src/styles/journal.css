@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{padding: 0; margin: 0;}
+
+
+
+.fullpage{
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+
+/* Add styles for the "add_data" container */
+#add_data {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 80%;
+  margin: 4px auto;
+}
+
+#add_data input[type="text"],
+#add_data input[type="number"],
+#add_data textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 96%;
+    resize: none;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    outline: none;
+}
+
+#add_data input[type="button"] {
+  font-family: 'Poppins', sans-serif;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px; /* Adjust the font size to match your design */
+  width: 98.9%;
+  cursor: pointer;
+}
+
+/* Add hover effect for input buttons */
+#add_data input[type="button"]:hover {
+  background-color: #00876e;
+}
+
+/* Apply the grid layout for the form fields with spacing */
+#add_data form {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+
+
+
+/* Other styles for your form elements can be added here */
+
+#update_data {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 80%;
+  margin: 4px auto;
+}
+
+#update_data input[type="text"],
+#update_data input[type="number"],
+#update_data textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 96%;
+    resize: none;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    outline: none;
+}
+
+#update_data input[type="button"] {
+  font-family: 'Poppins', sans-serif;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px; /* Adjust the font size to match your design */
+  width: 97.5%;
+  cursor: pointer;
+}
+
+/* Add hover effect for input buttons */
+#update_data input[type="button"]:hover {
+  background-color: #00876e;
+}
+
+/* Apply the grid layout for the form fields with spacing */
+#update_data form {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+
+.content_table {
+  border-collapse: collapse;
+  margin: 50px auto 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  /* overflow: hidden; */
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.15);
+}
+
+.content_table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+}
+.content_table thead {
+  display: table-header-group;
+}
+
+.content_table th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  padding: 12px 15px;
+}
+
+
+.content_table th,
+.content_table td {
+  padding: 12px 15px;
+}
+
+
+
+.content_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  font-weight: bold;
+  color: #009879;
+}
+
+.table_data {
+  white-space: pre-wrap;
+  /* white-space: nowrap; */
+}
+
+
+.handleDelete{font-family: 'Poppins', sans-serif;font-weight: 500}
+.handleEdit{font-family: 'Poppins', sans-serif;font-weight: 500}
+
+
+.content_table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+
+}
+
+.total_line {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    width: 16.4%;
+    margin-top: 11px;
+    transform: translateX(158%);
+    margin-left: 147px;
+}
+
+.final_total_tag {
+  margin: 0;
+  margin-right: 5px; /* Add margin between elements */
+}
+
+.final_total_value {
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.total_debit {
+  grid-column: 3;
+  margin-right: 5px; /* Add margin between elements */
+}
+
+.total_credit {
+  grid-column: 5;
+}
+
+@media screen and (max-width: 1200px) {
+  #add_data input[type="button"]{width: 99.9%;}
+}
+
+@media screen and (max-width: 768px) {
+  
+  #add_data form {display: flex;flex-direction: column; }
+  
+  .content_table { padding: 5px;font-size: 0.8em;min-width: auto;max-width: 400px; }
+  
+  .content_table th,.content_table td {padding: 8px 11px; }
+  
+  .total_line {width: 48%;transform: translateX(48%);padding: 5px;}
+  
+  .final_total_value {padding: 3px; }
+}
+
+@media screen and (max-width: 1800px) {.total_line{ width: 15%;transform: translateX(169%); padding: 5px;}}
+
+@media screen and (max-width: 1642px) {.total_line{ width: 15%;transform: translateX(158%); padding: 5px;}}
+
+@media screen and (max-width: 1546px) {.total_line{ width: 16%;transform: translateX(141%); padding: 5px;}}
+
+@media screen and (max-width: 1454px) {.total_line{ width: 20%;transform: translateX(98%); padding: 5px;}}
+
+@media screen and (max-width: 1310px) {.total_line{ width: 20%;transform: translateX(88%); padding: 5px;}}
+
+@media screen and (max-width: 1260px) {.total_line{ width: 20%;transform: translateX(82%); padding: 5px;}}
+
+@media screen and (max-width: 1192px) {.total_line{ width: 23%;transform: translateX(66%); padding: 5px;}}
+
+@media screen and (max-width: 1130px) {.total_line{ width: 26%;transform: translateX(46%); padding: 5px;}}
+
+@media screen and (max-width: 1054px) {.total_line{ width: 26.5%;transform: translateX(34%); padding: 5px;}}
+
+@media screen and (max-width: 1006px) {.total_line{ width: 29%;transform: translateX(21%); padding: 5px;}}
+
+@media screen and (max-width: 964px) {.total_line{ width: 29%;transform: translateX(14%); padding: 5px;}}
+
+@media screen and (max-width: 872px) {.total_line{ width: 31%;transform: translateX(1%); padding: 5px;}}
+
+
+@media screen and (max-width: 828px) {
+  #add_data input[type="button"]{width: 98.9%;}
+  #update_data input[type="button"]{width: 98.9%;}
+  .total_line{ width: 34.5%;transform: translateX(-12%); padding: 5px;}}
+
+@media screen and (max-width: 764px){.total_line{ width: 29.5%;transform: translateX(-4%); padding: 5px;}}
+
+@media screen and (max-width: 730px){.total_line{ width: 32.2%;transform: translateX(-12%); padding: 5px;}}
+
+@media screen and (max-width: 692px){.total_line{ width: 34.2%;transform: translateX(-23%); padding: 5px;}}
+
+@media screen and (max-width: 632px) {
+  .total_line {width: 37.2%;transform: translateX(-37%); padding: 5px;}
+  #add_data form {grid-template-columns: repeat(1, 1fr);}}
+  #update_data form {grid-template-columns: repeat(1, 1fr);}
+
+@media screen and (max-width: 600px) {#add_data input[type="button"]{width: 99.9%;} #update_data input[type="button"]{width: 99.9%;}}
+
+@media screen and (max-width:592px){.total_line{ width: 41%;transform: translate(-43%);padding: 5px;}}
+
+@media screen and (max-width:546px){.total_line{ width: 46%;transform: translate(-56%);padding: 5px;}}
+
+@media screen and (max-width: 526px) {.total_line {width: 43%;transform: translate(-66%);padding: 5px;}
+.content_table {margin-left: -13px;}}
+
+@media screen and (max-width:512px) {.content_table{margin-left: -19px;} .total_line{width: 48%;transform: translate(-66%);padding: 5px;}}
+
+@media screen and (max-width:504px) {.content_table{margin-left: -25px;} }
+
+@media screen and (max-width:496px) {.content_table{margin-left: -29px;} }
+
+@media screen and (max-width: 492px) {
+  .content_table {
+    margin-left: 1px;
+  }
+  
+  .total_line {
+    width: 46%;
+    transform: translateX(-73%);
+    padding: 5px;
+  }
+  
+  .content_table th,
+  .content_table td {
+    padding: 8px 12px;
+  }
+  
+  .journal_table {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .content_table th:first-child {
+    text-align: center;
+  }
+
+  .content_table td:first-child {
+    text-align: center;
+  }
+.journal_table::-webkit-scrollbar {
+  width: 9px; 
+  height: 8px;
+}
+
+.journal_table::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.journal_table::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+}
+
+/* @media screen and (max-width: 486px) {.content_table{margin-left: -27px;} } */
+
+
+/* @media screen and (max-width: 478px) {.content_table{margin-left: -30px;} } */
+
+/* @media screen and (max-width: 473px) {.content_table th,.content_table td {padding: 8px 8px; } .content_table{margin-left: -18px;}} */
+
+/* @media screen and (max-width: 462px) {
+  .total_line {width: 51%;transform: translateX(-78%);padding: 4px;}
+  .content_table{margin-left: -24px;}
+} */
+
+@media screen and (max-width: 454px) {
+  #add_data input[type="button"]{width: 101.9%;}
+  #update_data input[type="button"]{width: 101.9%;}
+  /* .content_table{margin-left: -29px;} */
+  .total_line {width: 51%;transform: translateX(-82%);padding: 4px;}
+}
+
+@media screen and (max-width: 448px) {
+  .content_table{margin-left: 1px;}
+  .content_table th,.content_table td {padding: 8px 11px; }
+  /* .total_line {width: 51%;transform: translateX(-82%);padding: 4px;} */
+  .handleDelete, .handleEdit{font-size: 12px; padding: 11px 12px 11px 11px;}
+}
+
+/* @media screen and (max-width: 440px) {.content_table th,.content_table td {padding: 8px 10px; }.content_table{margin-left: -31px;}} */
+
+/* @media screen and (max-width: 430px) {.content_table th,.content_table td {padding: 8px 9px; }.content_table{margin-left: -28px;}} */
+
+/* @media screen and (max-width: 422px) {.content_table th,.content_table td {padding: 8px 8px; }.content_table{margin-left: -31px;}} */
+
+/* @media screen and (max-width: 405px) {.content_table th,.content_table td {padding: 8px 10px; }.content_table{margin-left: -33px;}} */
+
+@media screen and (max-width: 400px) {
+  .content_table {max-width: 300px; margin-left: 1px;}
+  .total_line{font-size: 0.8em;}
+  #add_data input[type="text"],#add_data input[type="number"] {font-size: 0.75em;}
+  #update_data input[type="text"],#update_data input[type="number"] {font-size: 0.75em;}
+  
+}
+
+@media screen and (max-width: 375px) {
+  .content_table {max-width: 275px;margin-left: 1px; }
+  
+}
+@media screen and (max-width: 369px) {
+  .content_table {max-width: 275px;margin-left: 1px;}
+}
+
+@media screen and (max-width: 356px) {
+  .content_table {max-width: 275px;margin-left: 1px;}
+} 
+  
+@media (max-width: 768px) {
+  #add_data {width: 90%; }
+
+  /* Increase font size for smaller screens */
+  #add_data input[type="text"],
+  #add_data input[type="number"],
+  #add_data textarea,
+  #add_data input[type="button"] {font-size: 14px; }
+
+  #add_data input[type="text"],
+  #add_data input[type="number"],
+  #add_data textarea { padding: 8px; }
+
+  #add_data input[type="text"],
+  #add_data input[type="number"],
+  #add_data textarea {margin-top: 8px;
+  }
+}
+@media (max-width: 768px) {
+  #update_data {width: 90%; }
+
+  /* Increase font size for smaller screens */
+  #update_data input[type="text"],
+  #update_data input[type="number"],
+  #update_data textarea,
+  #update_data input[type="button"] {font-size: 14px; }
+
+  #update_data input[type="text"],
+  #update_data input[type="number"],
+  #update_data textarea { padding: 8px; }
+
+  #update_data input[type="text"],
+  #update_data input[type="number"],
+  #update_data textarea {margin-top: 8px;
+  }
+}
+
+
+
+
+
+
+
+

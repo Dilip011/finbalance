@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.profile_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.profile_form{
+  width: 400px;
+  height: 548px;
+  margin: 10px auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 8px;
+
+}
+.profile_values img{
+  border-radius: 50%;
+  height: 50px;
+  width: 46px;
+  display: inline-block;
+  margin: 0px 3px 1px 13px;
+}
+.profile_items{
+  margin: 40px 6px 4px 13px;
+  display: inline-block;
+}
+.profile_values p:nth-child(1){
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .profile_container {
+    padding: 20px;
+  }
+
+  .profile_form {
+    padding: 10px;
+  }
+}

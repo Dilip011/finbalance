@@ -1,0 +1,103 @@
+/* Login */
+
+/* .login_box{position: absolute;top: 159px;height: 566px;left: 487px;width: 984px;border-radius: 45px;border: white;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;overflow: hidden;}
+
+.login_input_box{display: flex;flex-direction: column;margin: 24px 1px 39px 20px;}
+
+.login_input_box input{padding: 8px 2px 3px 4px;border: 1px solid white;background-color: white;width: 326px;margin: 30px 2px 2px 3px;outline: none;font-size: 16px;}
+
+.login_box_img{height: 495px;width: 429px;float: right;margin: 1px 1px 1px 1px;position: absolute;top: 6px;left: 504px;}
+
+.login_border_bottom{border-bottom: 1px solid rgb(102, 102, 102);margin: 2px 1px 1px 35px;width: 349px;}
+
+.login_button{padding:16px 33px 17px 35px; margin:7px 5px 5px 55px; border-radius:16px; font-size:19px; border:1px solid white; background:#009879; color:white; font-weight: 400;}
+
+.login_button:hover{background-color: rgb(23 210 172);}
+
+.login_top_topic{font-size: 39px;margin: 26px 1px 1px 35px;}
+
+#login_i_tags{margin: 1px 1px 1px 34px;} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f0f0f0;
+  
+}
+
+.login-form {
+  width: 600px; 
+  margin: 150px auto; 
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif; 
+}
+
+.login-form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; 
+}
+
+i.fa-solid {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  color: #666;
+}
+
+.login-button {
+  padding: 12px;
+  background-color: #009879;
+  color: white;
+  width: 103%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.login-button:hover {
+  background-color: #06b38b;
+}
+
+
+@media screen and (max-width: 768px) {
+  .login-form {
+    width: 80%; 
+  }
+}
+
+  
+  

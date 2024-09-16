@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+*{padding: 0; margin: 0;}
+
+
+.main_container_of_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.please_login_container {
+    width: 700px;
+    height: 222px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 95px auto;
+}
+
+.INTRO_TRAILER {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #009879;
+    margin-bottom: 36px;
+    margin-top: 53px;
+}
+
+.please_login_container a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 10px;
+    border: 2px solid #009879;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #009879;
+    background-color: #fff;
+}
+
+.please_login_container a:hover {
+    background-color: #009879;
+    color: #fff;
+}
+
+/* Add the following inside your CSS */
+@media (max-width: 768px) {
+    .main_container_of_login {
+        padding: 10px;
+    }
+
+    .please_login_container {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .INTRO_TRAILER {
+        font-size: 18px;
+    }
+
+    .please_login_container a {
+        font-size: 16px;
+    }
+}
+/* Existing CSS styles */
+
+/* Add a media query for screens with a width of 314px or less */
+@media (max-width: 314px) {
+    .please_login_container a {
+        margin: 5px; /* Reduce the margin between the buttons for small screens */
+    }
+}
+/* Existing CSS styles */
+
+/* Add a media query for screens with a width of 300px or less */
+@media (max-width: 300px) {
+    .please_login_container {
+        flex-direction: column; /* Change flex direction to stack buttons vertically */
+    }
+
+    .please_login_container a {
+        margin: 5px 0; /* Add vertical margin to separate the buttons */
+    }
+}
+

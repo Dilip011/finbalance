@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+
+/* .department_invoice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.department_invoice_outline {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.department_invoice_outline_img {
+    width: 100%;
+    max-height: 522px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accounting_quote {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .department_invoice_outline {
+        flex-basis: 100%;
+    }
+
+    .department_invoice_outline_img {
+        max-height: 400px;
+    }
+
+    
+} */
+
+
+/* Center the department_invoice contents */
+.department_invoice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.department_invoice_outline {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.department_invoice_outline_img {
+    width: 100%;
+    max-height: 522px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accounting_quote {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .department_invoice_outline {
+        flex-basis: 100%;
+    }
+
+    .department_invoice_outline_img {
+        max-height: 400px;
+    }
+}
