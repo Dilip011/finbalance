@@ -175,7 +175,9 @@ const Signup = () => {
             </div>
             {/* <input type="submit" value="Register" className='register_button' onClick={handleSubmit} /> */}
             <button className='register_button' onClick={handleSubmit}>Register</button>
+            <p className="navigate-to-login">Have a Account? <a href="/login">Login</a></p>
           </form>
+          
           
 
         </div>
